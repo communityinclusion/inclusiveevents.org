@@ -3,12 +3,18 @@
 	background-color:#b22e26;
 	color:#ffffff;
 }
-
-#slide5{
+#slide3{
+	background-image:url('../images/stick.jpg');
 	background-color:#0072ae;
 	color:#ffffff;
 }
+#slide5{
+	background-color:#0072ae;
+		background-image:url('../images/pda_blue.jpg');
 
+	color:#ffffff;
+}
+#slide3 h1 {color:white;}
 #test{
 	background-color:#bde2df;
 	color:#000;
@@ -20,4 +26,5 @@
 	background-color:#b22e26;
 	color:#ffffff;}
 
-	.left{float:left; padding-right:3em;}
+.left{float:left; padding-right:3em;}
+strong{color:#b22e26;}
