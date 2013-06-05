@@ -1,17 +1,16 @@
 #slide2{
-	background-image:url('../images/hands_red.jpg');
+	background-image:url('../images/button2_red.jpg');
 	background-color:#b22e26;
 	color:#ffffff;
 }
 #slide3{
-	background-image:url('../images/stick.jpg');
+	background-image:url('../images/pda_blue.jpg');
 	background-color:#0072ae;
 	color:#ffffff;
 }
 #slide5{
 	background-color:#0072ae;
-		background-image:url('../images/pda_blue.jpg');
-
+		background-image:url('../images/stick.jpg');
 	color:#ffffff;
 }
 #slide3 h1 {color:white;}
@@ -24,6 +23,7 @@
 }
 #slide4{
 	background-color:#b22e26;
+	background-image:url('../images/hands_red.jpg');
 	color:#ffffff;}
 
 .left{float:left; padding-right:3em;}
@@ -31,3 +31,29 @@ strong{color:#b22e26;}
 
 .slide{margin-bottom: 2em;}
 #menu strong{white-space: nowrap;}
+
+/* minimal
+*******************************************************************************/
+.button {
+  background: #e3e3e3;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  box-shadow: inset 0 0 1px 1px #f6f6f6;
+  color: #333;
+  font: bold 18px/2 "helvetica neue", helvetica, arial, sans-serif;
+  padding: 8px 3px 9px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+   }
+  .button:hover {
+    background: #d9d9d9;
+    -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+    box-shadow: inset 0 0 1px 1px #eaeaea;
+    color: #222;
+    cursor: pointer; }
+  .button:active {
+    background: #d0d0d0;
+    -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+    box-shadow: inset 0 0 1px 1px #e3e3e3;
+    color: #000; }
