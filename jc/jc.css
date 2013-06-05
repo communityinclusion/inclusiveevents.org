@@ -32,7 +32,8 @@ strong{color:#b22e26;}
 .slide{margin-bottom: 2em; background-repeat: no-repeat;
 	padding:75px 0;
 }
-#menu strong{white-space: nowrap;}
+ul.navigation{white-space: nowrap;}
+
 
 /* minimal
 *******************************************************************************/
@@ -42,11 +43,12 @@ strong{color:#b22e26;}
   border-radius: 3px;
   -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
   box-shadow: inset 0 0 1px 1px #f6f6f6;
-  color: #333;
+  color: #b22e26;
   font: bold 18px/2 "helvetica neue", helvetica, arial, sans-serif;
   padding: 8px 3px 9px;
   text-align: center;
   text-shadow: 0 1px 0 #fff;
+  white-space: nowrap;
    }
   .button:hover {
     background: #d9d9d9;
